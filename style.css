@@ -161,14 +161,14 @@ form.kontakt input::placeholder,form.kontakt textarea::placeholder{color:rgba(25
 .es-cap,.es-body{position:relative;z-index:2}
 .es-cap{padding:44px 52px 0}
 .es .es-cap h2{font-family:var(--f-head);font-weight:600;font-size:clamp(2rem,3.4vw,2.9rem);line-height:1.05;color:#fff;margin:0 0 6px}
-.es-sub{font-family:var(--f-head);font-size:1.4rem;line-height:1.3;margin:0;color:#EAD9B5}
+.es-sub{font-family:var(--f-head);font-weight:500;font-size:1.8rem;line-height:1.2;margin:0;color:#EAD9B5}
 .es-body{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:44px;padding:28px 52px 48px;align-items:start}
 .es-body p{font-size:1.02rem;line-height:1.8;margin:0 0 1em;color:#fff}
-.es-body .minilabel{color:#EAD9B5;margin:0 0 10px}
+.es-body .minilabel{color:#EAD9B5;margin:0 0 8px!important;font-size:1.02rem;line-height:1.8}
 .es-list{list-style:none;padding:0;margin:0 0 1.4em;display:grid;grid-template-columns:1fr;gap:10px}
-.es-list li{background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.18);border-left:3px solid #EAD9B5;border-radius:12px;padding:11px 14px;font-size:.93rem;line-height:1.5;color:#fff}
-.es .fordich{max-width:none;background:rgba(255,255,255,.10);border-left:4px solid #EAD9B5;color:#fff}
-.es .fordich strong{color:#EAD9B5}
+.es-list li{background:rgba(255,255,255,.92);border:1px solid rgba(255,255,255,.92);border-left:3px solid #ac9165;border-radius:12px;padding:6px 14px;font-size:.93rem;line-height:1.4;color:#047e82}
+.es .fordich{max-width:none;background:rgba(255,255,255,.92);border-left:4px solid #ac9165;color:#047e82;padding:9px 18px;line-height:1.45;font-size:.95rem}
+.es .fordich strong{color:#ac9165}
 .chips.dark a{background:#047e82;border-color:#047e82;color:#fff}
 .chips.dark a:hover{background:#036569;border-color:#036569;color:#fff}
 @media(max-width:860px){
@@ -176,7 +176,8 @@ form.kontakt input::placeholder,form.kontakt textarea::placeholder{color:rgba(25
   .es-media{border-radius:22px}
   .es-cap{padding:28px 22px 0}
   .es .es-cap h2{font-size:2rem;margin-bottom:4px}
-  .es-sub{font-size:1.2rem}
+  .es-sub{font-size:1.45rem}
+  .es-media img{object-position:var(--opm,var(--op,50% 50%))}
   .es-body{grid-template-columns:1fr;gap:6px;padding:20px 22px 30px}
 }
 
@@ -193,3 +194,13 @@ body.menu-open .totop{opacity:0;visibility:hidden}
 .nw{white-space:nowrap;display:inline-block}
 [data-i=zc0] .nw{display:block}
 @media(max-width:380px){[data-i=zc0]{font-size:1.75rem}}
+
+/* Header-Bild Breathwork + Foto-Karten auf der Startseite */
+.pagehead.plain.photo{background:linear-gradient(rgba(3,95,99,.64),rgba(3,95,99,.74)),url(images/header-breathwork.webp) 62% 30%/cover no-repeat;min-height:400px}
+.card.light.photo{position:relative;overflow:hidden;border:0;color:#fff;min-height:190px;display:flex;flex-direction:column;justify-content:flex-end;background:#036569;box-shadow:0 10px 26px rgba(3,95,99,.25)}
+.card.light.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:var(--op,50% 50%);filter:saturate(.88);transition:transform .5s}
+.card.light.photo::after{content:"";position:absolute;inset:0;background:rgba(2,58,62,.70)}
+.card.light.photo h3,.card.light.photo p{position:relative;z-index:2}
+.card.light.photo h3{color:#fff}.card.light.photo p{color:rgba(255,255,255,.94)}
+.card.light.photo:hover img{transform:scale(1.05)}
+@media (prefers-reduced-motion:reduce){.card.light.photo img{transition:none}}
