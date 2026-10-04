@@ -30,4 +30,14 @@ window.TERMINE=[
     kategorie: "pb", 
     link: "https://www.eventbrite.de/e/dynamische-atemreise-wissenschaft-trifft-auf-bewusstsein-tickets-2001777626768"
   },
+{
+    titel: "Was bleiben will. Was gehen darf.", 
+    titel_en: "What belongs. What can be let go.", 
+    datum: "2026-11-21", 
+    zeit: "09:30–17:00 Uhr", 
+    ort: "Bad Wiesee am Tegernsee", 
+    art: "live", 
+    kategorie: "retreat", 
+    link: ""
+  },
 ];
