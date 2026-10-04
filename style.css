@@ -204,3 +204,15 @@ body.menu-open .totop{opacity:0;visibility:hidden}
 .card.light.photo h3{color:#fff}.card.light.photo p{color:rgba(255,255,255,.94)}
 .card.light.photo:hover img{transform:scale(1.05)}
 @media (prefers-reduced-motion:reduce){.card.light.photo img{transition:none}}
+
+/* Home: PSYCHEDELIC BREATH® mit Headerbild */
+#pb.photo-band{background:linear-gradient(rgba(3,60,64,.66),rgba(3,60,64,.78)),url(images/header-psychedelicbreath.webp) center 25%/cover no-repeat;color:#fff}
+#pb.photo-band h2,#pb.photo-band h3{color:#fff}
+#pb.photo-band .eyebrow{color:#EAD9B5}
+#pb.photo-band .lead,#pb.photo-band p{color:rgba(255,255,255,.94)}
+#pb.photo-band .card{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.28);backdrop-filter:blur(2px);-webkit-backdrop-filter:blur(2px)}
+#pb.photo-band .card small{color:#EAD9B5}
+#pb.photo-band .card:hover{background:rgba(255,255,255,.2)}
+#pb.photo-band .btn{background:#fff;border-color:#fff;color:#036569}
+#pb.photo-band .btn:hover{background:#EAD9B5;border-color:#EAD9B5;color:#036569}
+@media(max-width:860px){#pb.photo-band{background-position:center,46% top}}
