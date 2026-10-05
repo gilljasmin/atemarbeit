@@ -220,11 +220,14 @@ body.menu-open .totop{opacity:0;visibility:hidden}
 /* Mobile-Bilder (picture) */
 .es-media picture{display:contents}
 
-/* Home-Hero: Bild ohne Overlay, Text bleibt auf dem Bild (auch mobil) */
+/* Home-Hero: kein Farb-Overlay, Bild oben verankert, gesamter Text bleibt auf dem Bild (auch mobil) */
+.herowrap{background-position:left top}
 @media(max-width:760px){
-  .herowrap{background:#fff url(images/hero.jpg) left top/auto 430px no-repeat}
-  .hero{padding-top:318px;min-height:0}
+  .herowrap{background:linear-gradient(180deg,rgba(255,255,255,0) 0,rgba(255,255,255,0) 30%,rgba(255,255,255,.80) 52%,rgba(255,255,255,.90) 100%),#fff url(images/hero.jpg) left top/cover no-repeat}
+  .hero{padding:250px 16px 36px;min-height:0}
   .hero .eyebrow{text-shadow:0 0 10px #fff,0 0 4px #fff}
+  .hero p{font-size:1rem;margin-bottom:22px}
+  .hero .btn{padding:10px 12px;font-size:.8rem;margin:0 4px 8px 0;white-space:nowrap}
 }
 
 /* Home PB: eigenes Hochformat-Bild fürs Handy */
