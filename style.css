@@ -216,3 +216,26 @@ body.menu-open .totop{opacity:0;visibility:hidden}
 #pb.photo-band .btn{background:#fff;border-color:#fff;color:#036569}
 #pb.photo-band .btn:hover{background:#EAD9B5;border-color:#EAD9B5;color:#036569}
 @media(max-width:860px){#pb.photo-band{background-position:center,46% top}}
+
+/* Mobile-Bilder (picture) */
+.es-media picture{display:contents}
+
+/* Home-Hero im Stil der Unterseiten: Bild mit Overlay, helle Schrift, Text bleibt rechts */
+.herowrap{background:linear-gradient(90deg,rgba(3,95,99,.50) 0%,rgba(3,95,99,.58) 32%,rgba(3,95,99,.90) 58%,#035f63 100%),url(images/hero.jpg) left center/cover no-repeat,#035f63}
+.hero .eyebrow{color:#EAD9B5}
+.hero h1{color:#fff;text-shadow:0 2px 16px rgba(0,0,0,.35)}
+.hero p{color:rgba(255,255,255,.95);text-shadow:0 1px 10px rgba(0,0,0,.3)}
+.herowrap .btn{background:#fff;border-color:#fff;color:#036569}
+.herowrap .btn:hover{background:#EAD9B5;border-color:#EAD9B5;color:#036569}
+.herowrap .btn.alt{background:transparent;border-color:#fff;color:#fff}
+.herowrap .btn.alt:hover{background:#fff;color:#036569}
+@media(max-width:760px){
+  .herowrap{background:linear-gradient(180deg,rgba(3,95,99,.50) 0,rgba(3,95,99,.60) 230px,#035f63 345px),url(images/hero.jpg) left top/auto 345px no-repeat,#035f63}
+}
+
+/* Home PB: eigenes Hochformat-Bild fürs Handy */
+@media(max-width:860px){
+  #pb.photo-band{background:linear-gradient(rgba(3,60,64,.66),rgba(3,60,64,.78)),url(images/pb-mobile.webp) 50% 18%/cover no-repeat}
+}
+.hero h1{font-size:clamp(2.2rem,3.9vw,3.2rem);line-height:1.1}
+@media(max-width:760px){.hero h1{font-size:2.3rem}}
