@@ -220,17 +220,11 @@ body.menu-open .totop{opacity:0;visibility:hidden}
 /* Mobile-Bilder (picture) */
 .es-media picture{display:contents}
 
-/* Home-Hero im Stil der Unterseiten: Bild mit Overlay, helle Schrift, Text bleibt rechts */
-.herowrap{background:linear-gradient(90deg,rgba(3,95,99,.50) 0%,rgba(3,95,99,.58) 32%,rgba(3,95,99,.90) 58%,#035f63 100%),url(images/hero.jpg) left center/cover no-repeat,#035f63}
-.hero .eyebrow{color:#EAD9B5}
-.hero h1{color:#fff;text-shadow:0 2px 16px rgba(0,0,0,.35)}
-.hero p{color:rgba(255,255,255,.95);text-shadow:0 1px 10px rgba(0,0,0,.3)}
-.herowrap .btn{background:#fff;border-color:#fff;color:#036569}
-.herowrap .btn:hover{background:#EAD9B5;border-color:#EAD9B5;color:#036569}
-.herowrap .btn.alt{background:transparent;border-color:#fff;color:#fff}
-.herowrap .btn.alt:hover{background:#fff;color:#036569}
+/* Home-Hero: Bild ohne Overlay, Text bleibt auf dem Bild (auch mobil) */
 @media(max-width:760px){
-  .herowrap{background:linear-gradient(180deg,rgba(3,95,99,.50) 0,rgba(3,95,99,.60) 230px,#035f63 345px),url(images/hero.jpg) left top/auto 345px no-repeat,#035f63}
+  .herowrap{background:#fff url(images/hero.jpg) left top/auto 430px no-repeat}
+  .hero{padding-top:318px;min-height:0}
+  .hero .eyebrow{text-shadow:0 0 10px #fff,0 0 4px #fff}
 }
 
 /* Home PB: eigenes Hochformat-Bild fürs Handy */
