@@ -89,10 +89,14 @@
 <section id="kontakt">
   <div class="eyebrow" data-i="k0">Kontakt</div>
   <h2 data-i="k0b">Schreib mir</h2>
-  <p class="lead" data-i="k1">Wie kann ich dir helfen? Fragen, Anfragen oder Anmeldung? Schreib mir hier.</p>
-  <form class="kontakt" action="https://formspree.io/f/mwlpdydz" method="POST">
-    <input type="hidden" name="_subject" value="Anfrage über die Webseite">
-    <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none">
+  <p class="lead" data-i="k1">Wie kann ich dir helfen? Möchtest du mit mir atmen? Fragen, Anfragen oder Anmeldung?</p>
+  <p class="lead" data-i="k1b">Möchtest du Informationen zu meinen Breathwork-Angeboten, Terminen, kommenden Events, Workshops, Retreats oder Angeboten für Unternehmen erhalten? Dann melde dich bei mir.</p>
+  <p class="lead" data-i="k1c">Schreib mir hier.</p>
+  <form class="kontakt" action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="49a9df33-1501-45e5-a5c1-3d060392f1de">
+    <input type="hidden" name="subject" value="Anfrage über die Webseite">
+    <input type="hidden" name="from_name" value="Webseite Atem · Körper · Bewusstsein">
+    <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" style="display:none">
     <input name="name" required data-ph="Dein Name" data-ph-en="Your name" placeholder="Dein Name">
     <input name="email" type="email" required data-ph="Deine E-Mail" data-ph-en="Your email" placeholder="Deine E-Mail">
     <input name="phone" type="tel" data-ph="Telefonnummer (optional)" data-ph-en="Phone number (optional)" placeholder="Telefonnummer (optional)">
@@ -113,7 +117,7 @@
 </footer>
 
 <script>
-window.EN={
+window.EN={k1b:"Would you like information about my breathwork offers, dates, upcoming events, workshops, retreats or offers for companies? Then get in touch.",k1c:"Write to me here.",
 n1:"Breathwork",n3:"Events & Retreats",n4:"Breath practice",n5:"Contact",
 h0:"Breath · Body · Awareness",h1:"Out of your head,<br>back into your body.",
 h2:"Are you ready for change? For connecting with yourself? For more clarity, inner calm and emotional lightness? With your breath you open a space where change becomes possible. Live &amp; online.",
@@ -139,7 +143,7 @@ a0:"Breath practice · Join in",a1:"Your breathing break",a2:"Sit comfortably, c
 l0:"Later: <strong>For you</strong> – Individuals · Companies · The horse world · Partners",
 f1:"Sign up &amp; info (Eventbrite)",f2:"Legal notice · Privacy",
 k0b:"Write to me",n6:"Dates",t0:"Dates",t1:"Upcoming events",t2:"Book directly via Eventbrite. For dates without a booking link, please get in touch via the contact form.",
-k0:"Contact",k1:"How can I help you? Questions, enquiries or registration? Write to me here.",k4:"Send message",pm:"More about PSYCHEDELIC BREATH® →",dis:"<strong>Legal notice:</strong> My offers are intended for relaxation, well-being and personal development. They are not a substitute for medical advice, diagnosis or therapy and contain no promise of healing. If you have physical or mental health concerns, please always consult a doctor, alternative practitioner or psychotherapist. Participation is at your own responsibility.",fi:"Legal notice",fd:"Privacy policy",k5:"I have read the <a href=\"datenschutz.html\">privacy policy</a> and agree that my details may be processed to handle my enquiry.",kb:"Body &amp; awareness work",w00:"Experience",w0:"Your space of possibilities",x00:"Please note",x10:"If one of these health conditions applies to you, I kindly ask you not to take part. If you are unsure, please talk to me beforehand and also consult your doctor.",gt1:"Open group",gt2:"Private group · 3–6 people",gt3:"1:1",g1d:"Fixed dates, various locations, open group size",g1db:"Fixed dates, various locations, open group size, approx. 45–60 min.",g2d:"Introductory call included · flexible dates · location by arrangement · individual focus",pl:"In person",po:"Online",pp:"per person",pn:"All prices in euros. As a small business under § 19 UStG, no VAT is charged.",bwph:"Breathwork Essentials – formats &amp; prices",pbph:"PSYCHEDELIC BREATH® – formats &amp; prices",ptm:"See upcoming dates →",bwb:"All themes &amp; prices →"};
+k0:"Contact",k1:"How can I help you? Would you like to breathe with me? Questions, enquiries or registration?",k4:"Send message",pm:"More about PSYCHEDELIC BREATH® →",dis:"<strong>Legal notice:</strong> My offers are intended for relaxation, well-being and personal development. They are not a substitute for medical advice, diagnosis or therapy and contain no promise of healing. If you have physical or mental health concerns, please always consult a doctor, alternative practitioner or psychotherapist. Participation is at your own responsibility.",fi:"Legal notice",fd:"Privacy policy",k5:"I have read the <a href=\"datenschutz.html\">privacy policy</a> and agree that my details may be processed to handle my enquiry.",kb:"Body &amp; awareness work",w00:"Experience",w0:"Your space of possibilities",x00:"Please note",x10:"If one of these health conditions applies to you, I kindly ask you not to take part. If you are unsure, please talk to me beforehand and also consult your doctor.",gt1:"Open group",gt2:"Private group · 3–6 people",gt3:"1:1",g1d:"Fixed dates, various locations, open group size",g1db:"Fixed dates, various locations, open group size, approx. 45–60 min.",g2d:"Introductory call included · flexible dates · location by arrangement · individual focus",pl:"In person",po:"Online",pp:"per person",pn:"All prices in euros. As a small business under § 19 UStG, no VAT is charged.",bwph:"Breathwork Essentials – formats &amp; prices",pbph:"PSYCHEDELIC BREATH® – formats &amp; prices",ptm:"See upcoming dates →",bwb:"All themes &amp; prices →"};
 </script>
 <script src="termine.js"></script>
 <script src="app.js"></script>

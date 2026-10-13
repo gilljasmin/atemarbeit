@@ -40,7 +40,7 @@ const fm=document.querySelector('form.kontakt');
 if(fm){fm.addEventListener('submit',async e2=>{
   e2.preventDefault();const btn=fm.querySelector('button'),msg=document.getElementById('fmsg');btn.disabled=true;
   try{const r=await fetch(fm.action,{method:'POST',body:new FormData(fm),headers:{Accept:'application/json'}});
-    if(!r.ok)throw 0;fm.reset();msg.className='fmsg ok';
+    const j=await r.json().catch(()=>({}));if(!r.ok||j.success===false)throw 0;fm.reset();msg.className='fmsg ok';
     msg.textContent=T('Danke dir! Deine Nachricht ist angekommen, ich melde mich bei dir.','Thank you! Your message has arrived, I will get back to you.');
   }catch(x){msg.className='fmsg err';msg.textContent=T('Das hat leider nicht geklappt. Bitte versuche es noch einmal.','Sorry, that did not work. Please try again.')}
   btn.disabled=false})}
