@@ -11,7 +11,7 @@ window.TERMINE=[
   // Beispiel – zum Aktivieren die // am Zeilenanfang entfernen und Daten anpassen:
   // {titel:"PSYCHEDELIC BREATH® – Live Klasse", titel_en:"PSYCHEDELIC BREATH® – Live class", datum:"2026-11-14", zeit:"18:00 Uhr", ort:"Isen", art:"live", kategorie:"pb", link:"https://www.eventbrite.de/e/DEIN-EVENT"},
 
-  {titel:"Dynamische Atemreise – Körper- & Bewusstseinsarbeit", titel_en:"Dynamic Breathwork Journey – Somatic and Awareness Work", datum:"2026-10-10", zeit:"10:30 Uhr", ort:"JOYOGA in 84424 Isen", art:"live", kategorie:"pb", link:"https://www.eventbrite.de/e/dynamische-atemreise-wissenschaft-trifft-auf-bewusstsein-tickets-2001777626768"},
+  {titel:"Dynamische Atemreise – Körper- & Bewusstseinsarbeit", titel_en:"Dynamic Breathwork Journey – Somatic and Awareness Work", datum:"2026-10-25", zeit:"19:30 Uhr", ort:"Eventbrite", art:"online", kategorie:"pb", link:"https://www.eventbrite.de/e/psychedelic-breath-dynamische-atemreise-online-tickets-2003371749833"},
 
   {titel:"PSYCHEDELIC BREATH® – Messe Workshop", titel_en:"PSYCHEDELIC BREATH® – Workshop health fair", datum:"2026-10-18", zeit:"11:00 Uhr", ort:"Grafing – ENERGETIKA Gesundheitsmesse", art:"live", kategorie:"pb", link:""},
 
