@@ -15,7 +15,9 @@ window.TERMINE=[
 
   {titel:"PSYCHEDELIC BREATH® – Messe Workshop", titel_en:"PSYCHEDELIC BREATH® – Workshop health fair", datum:"2026-10-18", zeit:"11:00 Uhr", ort:"Grafing – ENERGETIKA Gesundheitsmesse", art:"live", kategorie:"pb", link:""},
 
- {titel:"Dynamische Atemreise – Körper- & Bewusstseinsarbeit", titel_en:"Dynamic Breathwork Journey – Somatic and Awareness Work", datum:"2026-10-30", zeit:"19:00 Uhr", ort:"JOYOGA in 84424 Isen", art:"live", kategorie:"pb", link:"https://www.eventbrite.de/e/dynamische-atemreise-korper-bewusstseinsarbeit-tickets-2003620051510"},
+ {titel:"Dynamische Atemreise – Körper- & Bewusstseinsarbeit", titel_en:"Dynamic Breathwork Journey – Somatic and Awareness Work", datum:"2026-10-30", zeit:"9:00 Uhr", ort:"JOYOGA in 84424 Isen", art:"live", kategorie:"pb", link:"https://www.eventbrite.de/e/dynamische-atemreise-korper-bewusstseinsarbeit-tickets-2003620051510"},
 
-  {titel:"Tagesretreat – Was bleiben will. Was gehen darf.", titel_en:"Day Retreat – What belongs. What can be let go.", datum:"2026-11-21", zeit:"09:30–17:00 Uhr", ort:"Bad Wiesee am Tegernsee", art:"live", kategorie:"retreat", link:""},
+ {titel:"Dynamische Atemarbeit – Verbinde dich mit deiner inneren Welt", titel_en:"Dynamic Breathwork – Connect with Your Inner World", datum:"2026-11-15", zeit:"19:00 Uhr", ort:"Amore Studio in 84405 Dorfen", art:"live", kategorie:"pb", link:"https://www.eventbrite.de/e/dynamische-atemarbeit-verbinde-dich-mit-deiner-inneren-welt-tickets-2004018741001"},
+
+  {titel:"Tagesretreat – Zurück zu Dir", titel_en:"Day Retreat – Back to You.", datum:"2026-11-21", zeit:"09:30–17:00 Uhr", ort:"Bad Wiesee am Tegernsee", art:"live", kategorie:"retreat", link:""},
 ];
