@@ -15,9 +15,14 @@ window.TERMINE=[
 
   {titel:"PSYCHEDELIC BREATH® – Messe Workshop", titel_en:"PSYCHEDELIC BREATH® – Workshop health fair", datum:"2026-10-18", zeit:"11:00 Uhr", ort:"Grafing – ENERGETIKA Gesundheitsmesse", art:"live", kategorie:"pb", link:""},
 
- {titel:"Dynamische Atemreise – Körper- & Bewusstseinsarbeit", titel_en:"Dynamic Breathwork Journey – Somatic and Awareness Work", datum:"2026-10-30", zeit:"9:00 Uhr", ort:"JOYOGA in 84424 Isen", art:"live", kategorie:"pb", link:"https://www.eventbrite.de/e/dynamische-atemreise-korper-bewusstseinsarbeit-tickets-2003620051510"},
+  {titel:"Dynamische Atemarbeit – Verbinde dich mit deiner inneren Welt", titel_en:"Dynamic Breathwork – Connect with Your Inner World", datum:"2026-11-15", zeit:"19:00 Uhr", ort:"Amore Studio in 84405 Dorfen", art:"live", kategorie:"pb", link:"https://www.eventbrite.de/e/dynamische-atemarbeit-verbinde-dich-mit-deiner-inneren-welt-tickets-2004018741001"},
 
- {titel:"Dynamische Atemarbeit – Verbinde dich mit deiner inneren Welt", titel_en:"Dynamic Breathwork – Connect with Your Inner World", datum:"2026-11-15", zeit:"19:00 Uhr", ort:"Amore Studio in 84405 Dorfen", art:"live", kategorie:"pb", link:"https://www.eventbrite.de/e/dynamische-atemarbeit-verbinde-dich-mit-deiner-inneren-welt-tickets-2004018741001"},
+  // Schnupperstunden PSYCHEDELIC BREATH® (kostenlos, ca. 45 Minuten)
+  {titel:"PSYCHEDELIC BREATH® – kostenfreies Schnupper-Angebot", titel_en:"PSYCHEDELIC BREATH® – Taster session (free)", datum:"2026-11-27", zeit:"18:30 Uhr", ort:"JOYOGA Studio in 84424 Isen", art:"live", kategorie:"pb", link:"https://www.eventbrite.de/e/schnupper-angebot-aus-dem-kopf-zuruck-in-den-korper-registrierung-2004712752809"},
 
-  {titel:"Tagesretreat – Zurück zu Dir", titel_en:"Day Retreat – Back to You.", datum:"2026-11-21", zeit:"09:30–17:00 Uhr", ort:"Bad Wiesee am Tegernsee", art:"live", kategorie:"retreat", link:""},
+  {titel:"PSYCHEDELIC BREATH® – kostenfreies Schnupper-Angebot", titel_en:"PSYCHEDELIC BREATH® – Taster session (free)", datum:"2026-11-26", zeit:"19:00 Uhr", ort:"Online", art:"online", kategorie:"pb", link:"https://www.eventbrite.de/e/schnupper-angebot-aus-dem-kopf-zuruck-in-den-korper-online-registrierung-2004714062727"},
+
+  {titel:"PSYCHEDELIC BREATH® – kostenfreies Schnupper-Angebot · Auftakt Portaltage", titel_en:"PSYCHEDELIC BREATH® – Taster session (free) · Kick-off of the Portal Days", datum:"2026-12-10", zeit:"19:00 Uhr", ort:"Online", art:"online", kategorie:"pb", link:"https://www.eventbrite.de/e/schnupper-angebot-aus-dem-kopf-zuruck-in-den-korper-online-registrierung-2004714999529"},
+
+  {titel:"PSYCHEDELIC BREATH® – kostenfreies Schnupper-Angebot", titel_en:"PSYCHEDELIC BREATH® – Taster session (free)", datum:"2026-12-14", zeit:"19:00 Uhr", ort:"JOYOGA Studio in 84424 Isen", art:"live", kategorie:"pb", link:"https://www.eventbrite.de/e/schnupper-angebot-aus-dem-kopf-zuruck-in-den-korper-registrierung-2004713770854"},
 ];

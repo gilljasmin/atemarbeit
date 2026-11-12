@@ -240,3 +240,9 @@ body.menu-open .totop{opacity:0;visibility:hidden}
 /* Kontakt: Einleitungsabsätze enger */
 #kontakt p.lead{margin-bottom:12px}
 #kontakt p.lead:last-of-type{margin-bottom:26px}
+
+/* PB: Schnupperstunde */
+.sn-note{margin-top:18px;padding:14px 20px;border-left:4px solid #ac9165;border-radius:0 14px 14px 0;background:var(--card);max-width:760px}
+.sn-note p{margin:0 0 6px;font-size:.93rem;line-height:1.6}.sn-note p:last-child{margin:0}
+.sn-note a{text-decoration:underline}
+#schnupper p.lead{margin-bottom:12px}
