@@ -15,7 +15,7 @@ window.TERMINE=[
 
   {titel:"PSYCHEDELIC BREATH® – Messe Workshop", titel_en:"PSYCHEDELIC BREATH® – Workshop health fair", datum:"2026-10-18", zeit:"11:00 Uhr", ort:"Grafing – ENERGETIKA Gesundheitsmesse", art:"live", kategorie:"pb", link:""},
 
-  {titel:"Dynamische Atemarbeit – Verbinde dich mit deiner inneren Welt", titel_en:"Dynamic Breathwork – Connect with Your Inner World", datum:"2026-11-15", zeit:"19:00 Uhr", ort:"Amore Studio in 84405 Dorfen", art:"live", kategorie:"pb", link:"https://www.eventbrite.de/e/dynamische-atemarbeit-verbinde-dich-mit-deiner-inneren-welt-tickets-2004018741001"},
+  {titel:"Dynamische Atemarbeit – Verbinde dich mit deiner inneren Welt", titel_en:"Dynamic Breathwork – Connect with Your Inner World", datum:"2026-11-15", zeit:"09:00 Uhr", ort:"Amore Studio in 84405 Dorfen", art:"live", kategorie:"pb", link:"https://www.eventbrite.de/e/dynamische-atemarbeit-verbinde-dich-mit-deiner-inneren-welt-tickets-2004018741001"},
 
   // Schnupperstunden PSYCHEDELIC BREATH® (kostenlos, ca. 45 Minuten)
   {titel:"PSYCHEDELIC BREATH® – kostenfreies Schnupper-Angebot", titel_en:"PSYCHEDELIC BREATH® – Taster session (free)", datum:"2026-11-27", zeit:"18:30 Uhr", ort:"JOYOGA Studio in 84424 Isen", art:"live", kategorie:"pb", link:"https://www.eventbrite.de/e/schnupper-angebot-aus-dem-kopf-zuruck-in-den-korper-registrierung-2004712752809"},
